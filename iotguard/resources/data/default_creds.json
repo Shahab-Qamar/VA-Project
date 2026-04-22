@@ -1,0 +1,30 @@
+{
+  "_comment": "Vendor/default credentials for IoT devices. Used in Lab Mode only, never against production gear without written authorization. Sourced from public vendor docs and open wordlists.",
+  "generic": [
+    ["admin", "admin"],
+    ["admin", "password"],
+    ["admin", "1234"],
+    ["admin", ""],
+    ["root", "root"],
+    ["root", ""],
+    ["root", "toor"],
+    ["root", "admin"],
+    ["user", "user"],
+    ["guest", "guest"],
+    ["support", "support"]
+  ],
+  "by_vendor": {
+    "cisco":     [["cisco", "cisco"], ["admin", "cisco"]],
+    "d-link":    [["admin", ""], ["admin", "admin"]],
+    "tp-link":   [["admin", "admin"]],
+    "netgear":   [["admin", "password"], ["admin", "1234"]],
+    "asus":      [["admin", "admin"]],
+    "hikvision": [["admin", "12345"]],
+    "dahua":     [["admin", "admin"], ["666666", "666666"]],
+    "raspberry": [["pi", "raspberry"]],
+    "ubiquiti":  [["ubnt", "ubnt"]],
+    "mikrotik":  [["admin", ""]],
+    "huawei":    [["admin", "admin"], ["root", "admin"]],
+    "xiongmai":  [["admin", ""], ["root", "xc3511"]]
+  }
+}
