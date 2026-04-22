@@ -1,0 +1,24 @@
+# IoTGuard — Python dependencies
+# Install on Kali/Ubuntu/Debian:
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# System packages (install via apt):
+#   nmap network-manager bluez avahi-daemon
+
+# GUI
+PyQt6>=6.5,<7
+matplotlib>=3.6
+
+# Scanning
+scapy>=2.5
+zeroconf>=0.131
+python-nmap>=0.7
+bleak>=0.21
+paramiko>=3.3
+
+# Intel / lookup
+mac-vendor-lookup>=0.1.12
+
+# Reporting
+reportlab>=4.0
